@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    body{
+        position: relative;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0px;
+        
+    }
+
+    #b1{
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    #b3{
+        background-color: var(--cor3);
+        border-radius: 0px 10px 10px 0px;
+    }
+}
